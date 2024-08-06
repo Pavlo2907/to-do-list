@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'todo/styles.css' %}">
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="title" placeholder="New Task">
+        <button type="submit" name="add">Add</button>
+    </form>
+    <ul>
+        {% for task in tasks %}
+            <li>
+                <form action="" method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="task_id" value="{{ task.id }}">
+                    <input type="text" name="title" value="{{ task.title }}">
+                    <input type="checkbox" name="completed" {% if task.completed %}checked{% endif %}>
+                    <button type="submit" name="update">Update</button>
+                </form>
+                <form action="" method="post" style="display:inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="task_id" value="{{ task.id }}">
+                    <button type="submit" name="delete">Delete</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
