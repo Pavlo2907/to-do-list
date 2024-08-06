@@ -50,10 +50,4 @@ python manage.py runserver
 
 Access the application at http://127.0.0.1:8000/.
 
-Usage
-
- • Adding a Task: Enter a task title in the input field and click “Add”.
- • Updating a Task: Edit the task title and click “Update” to save changes. Use the checkbox to mark the task as completed.
- • Deleting a Task: Click “Delete” to remove a task from the list.
-
 
