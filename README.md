@@ -58,33 +58,21 @@ Usage
 
 Project Structure
 
- • todo/
- • migrations/ - Database migrations.
- • static/ - Static files like CSS.
- • templates/ - HTML templates.
- • init.py - Initialization file for the app.
- • admin.py - Configuration for the Django admin interface.
- • apps.py - Application configuration.
- • models.py - Database models.
- • tests.py - Application tests.
- • urls.py - URL patterns for the app.
- • views.py - View functions for handling requests.
- • todoproject/ - Project directory.
- • init.py - Initialization file for the project.
- • settings.py - Project settings.
- • urls.py - URL patterns for the project.
- • wsgi.py - WSGI configuration for deploying the project.
- • manage.py - Command-line utility for Django projects.
+ • #todo/
+ • #migrations/ - Database migrations.
+ • #static/ - Static files like CSS.
+ • #templates/ - HTML templates.
+ • #init.py - Initialization file for the app.
+ • #admin.py - Configuration for the Django admin interface.
+ • #apps.py - Application configuration.
+ • #models.py - Database models.
+ • #tests.py - Application tests.
+ • #urls.py - URL patterns for the app.
+ • #views.py - View functions for handling requests.
+ • #todoproject/ - Project directory.
+ • #init.py - Initialization file for the project.
+ • #settings.py - Project settings.
+ • #urls.py - URL patterns for the project.
+ • #wsgi.py - WSGI configuration for deploying the project.
+ • #manage.py - Command-line utility for Django projects.
 
-Contributing
-
-If you’d like to contribute to this project, please fork the repository and submit a pull request with your changes.
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements
-
- • Django documentation for guidance on creating web applications.
- • GitHub for hosting the project.
