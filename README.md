@@ -56,23 +56,4 @@ Usage
  • Updating a Task: Edit the task title and click “Update” to save changes. Use the checkbox to mark the task as completed.
  • Deleting a Task: Click “Delete” to remove a task from the list.
 
-Project Structure
-
- • # todo/
- • # migrations/ - Database migrations.
- • # static/ - Static files like CSS.
- • # templates/ - HTML templates.
- • # init.py - Initialization file for the app.
- • # admin.py - Configuration for the Django admin interface.
- • # apps.py - Application configuration.
- • # models.py - Database models.
- • # tests.py - Application tests.
- • # urls.py - URL patterns for the app.
- • # views.py - View functions for handling requests.
- • # todoproject/ - Project directory.
- • # init.py - Initialization file for the project.
- • # settings.py - Project settings.
- • # urls.py - URL patterns for the project.
- • # wsgi.py - WSGI configuration for deploying the project.
- • # manage.py - Command-line utility for Django projects.
 
