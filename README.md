@@ -50,4 +50,6 @@ python manage.py runserver
 
 Access the application at http://127.0.0.1:8000/.
 
+# License
 
+This project is licensed under the [MIT License](https://github.com/Pavlo2907/to-do-list/main/LICENSE).
