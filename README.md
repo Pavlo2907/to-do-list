@@ -19,9 +19,9 @@ A simple To-Do List application built with Django. This project allows users to 
 1. Clone the Repository
 
    ```bash
-   git clone <repository_url>
+   git clone [<repository_url>](https://github.com/Pavlo2907/to-do-list)
 
-Replace <repository_url> with the URL of your GitHub repository.
+
 
  2. Navigate to the Project Directory
 
